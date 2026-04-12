@@ -1,12 +1,12 @@
 {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "SSO JWT CLI with hardware-backed secure caching (Secure Enclave / TPM)",
     "homepage": "https://github.com/jgowdy/sso-jwt",
     "license": "MIT",
     "architecture": {
         "64bit": {
-  "url": "https://github.com/jgowdy/sso-jwt/releases/download/v0.3.0/sso-jwt-x86_64-pc-windows-msvc.zip",
-  "hash": "2b607f6c9a2dd663c3b724db308ce43929349d21f344d4d1163360aa553ef410"
+  "url": "https://github.com/jgowdy/sso-jwt/releases/download/v0.3.1/sso-jwt-x86_64-pc-windows-msvc.zip",
+  "hash": "64bf8a5c58a0ad9f92b8b7b637f8e7ae8309a85a8ad48d47b0b4c2a83ed5f409"
         }
     },
     "bin": [
