@@ -1,0 +1,22 @@
+{
+    "version": "0.1.1",
+    "description": "SSO JWT CLI with hardware-backed secure caching (Secure Enclave / TPM)",
+    "homepage": "https://github.com/jgowdy/sso-jwt",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jgowdy/sso-jwt/releases/download/v0.1.1/sso-jwt-x86_64-pc-windows-msvc.zip",
+            "hash": "b92ce258fe98e5ca12a967d84eb035a4474a437cb25d75a9d28884682ec3be1a"
+        }
+    },
+    "bin": [
+        "sso-jwt.exe",
+        "sso-jwt-tpm-bridge.exe"
+    ],
+    "post_install": "Write-Host 'Run \"sso-jwt install\" to configure WSL distributions.'",
+    "notes": [
+        "Run 'sso-jwt add-server default --from-github gdcorp-im/sso-jwt-config/godaddy.toml --default' to configure.",
+        "Run 'sso-jwt install' to set up WSL distributions.",
+        "Run 'sso-jwt --help' for all options."
+    ]
+}
