@@ -1,12 +1,12 @@
 {
-    "version": "0.5.5",
+    "version": "0.5.6",
     "description": "SSO JWT with hardware-backed caching (Windows TPM 2.0)",
     "homepage": "https://github.com/godaddy/sso-jwt",
     "license": "MIT",
     "architecture": {
         "64bit": {
-  "url": "https://github.com/godaddy/sso-jwt/releases/download/v0.5.5/sso-jwt-x86_64-pc-windows-msvc.zip",
-  "hash": "8ee22e6c454cdd5472f680490ed920d50c9a151ff72224ee7f3214d335c55562"
+  "url": "https://github.com/godaddy/sso-jwt/releases/download/v0.5.6/sso-jwt-x86_64-pc-windows-msvc.zip",
+  "hash": "1114d283320d10026befadc4161d695e0501395c7982f66e5ab362b090fe1b4c"
         }
     },
     "bin": ["sso-jwt.exe","sso-jwt-tpm-bridge.exe"]
