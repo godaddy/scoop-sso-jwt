@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
   "url": "https://github.com/godaddy/sso-jwt/releases/download/v0.5.11/sso-jwt-x86_64-pc-windows-msvc.zip",
-  "hash": "834327e26a74bb1c9241c98324704acd1f5ff597c2adf7e2ca09d3631b53f948"
+  "hash": "6bbf3b1d35b41744c713eee654058ad3ac6f214267cafd35004f94ceade8a453"
         }
     },
     "bin": ["sso-jwt.exe","sso-jwt-tpm-bridge.exe"]
